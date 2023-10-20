@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --purple-light: #ab84c1;
+    --purple-medium: #75438c;
+    --purple-strong: #4c45a5;
+    --white: #ffff;
+    --black: #0000;
+}
+
+hr {
+    background-color: var(--purple-light);
+    height: 45px;
+    margin-right: -2px;
+}
+
+header {
+    background-image: url(https://marketplace.canva.com/EADaosozdz0/1/0/1600w/canva-purple-sky-profile-header-XBJ23wlhl0s.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
