@@ -4,9 +4,10 @@
 }
 
 :root {
+    --purple-lighter: #cebed8;
     --purple-light: #ab84c1;
     --purple-medium: #75438c;
-    --purple-strong: #4c45a5;
+    --purple-strong: #231e64;
     --white: #ffff;
     --black: #0000;
 }
@@ -37,7 +38,7 @@ header h1 {
     text-decoration: underline;
     letter-spacing: -0.5px;
     line-height: 49px;
-    color: var(--purple-medium);
+    color: var(--purple-strong);
 }
 
 header p {
@@ -50,3 +51,19 @@ header p {
     letter-spacing: 3px;
 }
 
+.newTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.newTask input {
+    height: 70px;
+    width: 70vw;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--purple-lighter);
+    color: var(--white);
+    text-align: center;
+}
