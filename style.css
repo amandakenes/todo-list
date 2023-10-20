@@ -6,8 +6,8 @@
 :root {
     --purple-lighter: #cebed8;
     --purple-light: #ab84c1;
-    --purple-medium: #75438c;
-    --purple-strong: #231e64;
+    --purple-medium: #84539b;
+    --purple-strong: #312a8f;
     --white: #ffff;
     --black: #0000;
 }
@@ -53,17 +53,40 @@ header p {
 
 .newTask {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    gap: 15px;
 }
 
 .newTask input {
     height: 70px;
     width: 70vw;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: var(--purple-lighter);
     color: var(--white);
-    text-align: center;
+    text-align: center; 
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    background-color: var(--purple-medium);
+    color: var(--white);
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--purple-light);
+    color: var(--purple-strong);
+    height: 47px;
+    width: 205px;
 }
